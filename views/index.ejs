@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJStilez portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <div class="firstDiv">
+        <h1 id="myH1">Joseph</h1>
+
+        <div id="heroContainer" class="heroContainer">
+            <div class="title">
+                <h4>Fullstack Developer.</h4>
+                <p id="myHobby">I like to craft solid and scalable frontend products with great user experiences.</p>
+            </div>
+            <img id="myImage" class="myImage" src="assets/Image_1.png" alt="My Image">
+        </div>
+
+        <div id="skills" class="skills">
+            <p>Highly skilled at progressive enhancement, design systems & UI Engineering.</p>
+            <p>Proven experience building successful products for clients across several countries.</p>
+        </div>
+    </div>
+
+    <section id="section2">
+        <div id="frontendDiv" class="frontendDiv">
+            <p id="frontEndText">Frontend Design</p>
+            <p>I’m a front-end developer skilled in HTML, CSS, JavaScript, React, EJS, and Tailwind CSS. I focus on creating responsive web applications and optimizing performance. Explore my projects on GitHub and connect with me on LinkedIn.</p>
+        </div>
+        
+        <div id="backendDiv">
+            <p id="backEndText">Backend server side</p>
+            <p>I’m also a back-end developer experienced in Node.js, Express, and database management. I work with npm for package management and implement authentication using OAuth and session handling. My goal is to build robust APIs and maintain seamless data flow in applications.</p>
+        </div>
+    </section>
+
+    <section id="section3">
+        <div id="section3Div">
+            <p id="overYears">Over the years</p>
+            <p class="overYearsText">Over the years, I have developed a strong foundation in full-stack development, specializing in both front-end and back-end technologies. On the front end, I’m skilled in HTML, CSS, JavaScript, React, EJS, and Tailwind CSS, focusing on creating responsive and user-friendly web applications. My experience includes building dynamic interfaces and optimizing performance for seamless user experiences.
+            <p class="overYearsText">On the back end, I work with Node.js and Express, managing databases and utilizing npm for efficient package management. I’ve implemented authentication using OAuth and session handling, ensuring secure user interactions within applications. My goal has always been to build robust APIs and maintain seamless data flow, enhancing the overall performance and reliability of web applications.</p>
+        </div>
+    </section>
+
+    <section id="section4">
+        <div id="section4Div">
+            <h1>Contact us</h1>
+            <p id="contactUsText">I’d love to hear from you! Whether you have questions, project inquiries, or just want to connect, feel free to reach out. You can contact me via email at adenusijoseph0@gmail.com, connect with me on <a href="">LinkedIn</a>, or check out my work on <a href="">GitHub</a>. I look forward to connecting!</p>
+            <form action="/inputs" method="post" id="form">
+                <div>
+                    <label for="name">Enter your name:</label>
+                    <input type="text" name="name" id="name" placeholder="Input your name" required>
+                </div>
+                <div>
+                    <label for="email">Enter your email:</label>
+                    <input type="email" name="email" id="email" placeholder="Input your email" required>
+                </div>
+                <div>
+                    <label for="context">Enter your context:</label>
+                    <textarea type="context" name="context" id="context" placeholder="Input your context" required></textarea>
+                    <input type="submit" id="submitBtn" value="Submit">
+                </div>
+            </form>
+            <p id="copyrightText"> &copy <span id="copyrightDate"></span> Adenusi Joseph. All rights reserved</p>
+        </div>
+    </section>
+
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
